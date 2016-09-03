@@ -103,6 +103,7 @@ angular.module("crowd").controller("MainController", function($scope, $rootScope
     }
 
     // ### TODO: use a filter instead?
+    // ### FIXME: events may be undefined, e.g. in case of a "Publisher" institution
     $scope.sortEvents = function(events) {
         events.sort(function(e1, e2) {
             return compareDateTime(e1.from, e2.from)
