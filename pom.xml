@@ -7,7 +7,7 @@
     <name>DeepaMehta 4 CROWD Literature</name>
     <groupId>eu.crowd-literature</groupId>
     <artifactId>dm48-crowd-literature</artifactId>
-    <version>0.6.3-SNAPSHOT</version>
+    <version>0.6.3</version>
     <packaging>bundle</packaging>
 
     <parent>

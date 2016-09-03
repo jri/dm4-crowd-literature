@@ -49,9 +49,15 @@ Your changes will appear immediately. No building required.
 Version History
 ---------------
 
+**0.6.3** -- Sep 3, 2016
+
+* Fixes:
+    * Render detail pages with undefined event lists
+* Depends on DeepaMehta 4.8.3
+
 **0.6.2** -- Sep 1, 2016
 
-* Compatible with DeepaMehta 4.8.3
+* Depends on DeepaMehta 4.8.3
 
 **0.6.1** -- Aug 31, 2016
 
@@ -59,7 +65,7 @@ Version History
     * All-english names
     * Tour course updated
     * Optional initial center/zoom state for 2nd tour half
-* Compatible with DeepaMehta 4.8
+* Depends on DeepaMehta 4.8
 
 **0.6** -- May 19, 2016
 
@@ -82,7 +88,7 @@ Public launch
     * No double vertical scrollbars
     * Fix hires (>=144dpi) display detection
     * Works behind a reverse proxy
-* Compatible with DeepaMehta 4.8
+* Depends on DeepaMehta 4.8
 
 **0.5** -- Mar 21, 2016
 
@@ -102,7 +108,7 @@ Webapp usability
     * External links are working also if `http://` was not entered
     * No map "flickering through" on page change when in portrait mode
 * Technical: the webapp talks solely to its own `/crowd` endpoint; does not rely on `/core` anymore
-* Compatible with DeepaMehta 4.8-SNAPSHOT
+* Depends on DeepaMehta 4.8-SNAPSHOT
 
 **0.4** -- Jan 19, 2016
 
@@ -114,7 +120,7 @@ First production version, updatable
     * Event Series page: show events with dates
 * Own public "CROWD" workspace
 * Technical: uses DTOs for less requests and smaller transfer sizes
-* Compatible with DeepaMehta 4.8-SNAPSHOT
+* Depends on DeepaMehta 4.8-SNAPSHOT
 
 **0.3** -- Dec 30, 2015
 
@@ -129,7 +135,7 @@ Data model consolidation
     * "Event Series" is new topic type
     * "Curator" is new work involvement role
 * Own REST service
-* Compatible with DeepaMehta 4.8-SNAPSHOT
+* Depends on DeepaMehta 4.8-SNAPSHOT
 
 **0.2** -- Dec 21, 2015
 
@@ -142,7 +148,7 @@ Technical basis
 * Deep links
 * Functional browser back/forward buttons
 * Technical: Makes use of Angular-Leaflet directive
-* Compatible with DeepaMehta 4.8-SNAPSHOT
+* Depends on DeepaMehta 4.8-SNAPSHOT
 
 **0.1** -- Dec 15, 2015
 
@@ -150,9 +156,9 @@ Project setup
 
 * Data model: Work, Translation, Work Involvement
 * Leaflet based map rendering with Mapbox imagery
-* Compatible with DeepaMehta 4.8-SNAPSHOT
+* Depends on DeepaMehta 4.8-SNAPSHOT
 
 
 ------------
 Jörg Richter  
-Sep 1, 2016
+Sep 3, 2016
